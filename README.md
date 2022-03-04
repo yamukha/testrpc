@@ -1,5 +1,5 @@
 # testrpc
-simple rust server to to test ESP8266 jsonrps 
+simple rust server to to test ESP8266 jsonrpc 
 
 # local net interface on IP 192.168.0.102 test cli
 curl -X POST -H "Content-Type: application/json" -d '{"jsonrpc": "2.0", "method": "get_payload", "id":123 }' 192.168.0.102:9933
